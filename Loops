@@ -1,0 +1,7 @@
+Task 
+# Read an integer N. For all non-negative integers i < N, print i**2. See the sample for details.
+
+if __name__ == '__main__':
+    n = int(input())
+    [print(n**2) for n in range(n)]
+
